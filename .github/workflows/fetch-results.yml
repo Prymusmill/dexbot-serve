@@ -13,7 +13,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GH_PAT }}  # używamy Twojego tokena PAT
 
       - name: Set up Python
         uses: actions/setup-python@v4
