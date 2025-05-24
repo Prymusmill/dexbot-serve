@@ -1,1 +1,1 @@
-web: python serve.py
+# Temporarily disabled
